@@ -1,0 +1,44 @@
+.quest-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .quest-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .quest-content table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .quest-content th, .quest-content td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .quest-content button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .close-button {
+    margin-top: 10px;
+    background-color: #ccc;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

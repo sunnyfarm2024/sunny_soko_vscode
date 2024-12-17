@@ -1,0 +1,94 @@
+.plantbook-popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .plantbook-content {
+    position: relative;
+    width: 60%;
+    height: 60%;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    background-color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .nav-button.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .left-button {
+    left: -50px;
+  }
+  
+  .right-button {
+    right: -50px;
+  }
+  
+  .plant-display {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+  }
+  
+  .plant-card {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .plant-divider {
+    width: 1px;
+    background-color: #000;
+    height: 100%;
+  }
+  
+  .plant-image {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .plant-name {
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+  }
+  
+  .plant-description {
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
